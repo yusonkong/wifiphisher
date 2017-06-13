@@ -51,3 +51,7 @@ NM_APP_PATH = 'org.freedesktop.NetworkManager'
 NM_MANAGER_OBJ_PATH = '/org/freedesktop/NetworkManager'
 NM_MANAGER_INTERFACE_PATH = 'org.freedesktop.NetworkManager'
 NM_DEV_INTERFACE_PATH = 'org.freedesktop.NetworkManager.Device'
+
+#TUI
+MAIN_TUI_ATTRS = 'version essid channel ap_iface deauthentication phishinghttp args'
+AP_SEL_ATTRS = 'interface mac_matcher network_manager args'
